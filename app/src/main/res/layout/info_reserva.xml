@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    tools:context=".InfoReserva">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        tools:context=".InfoReserva">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                layout="@layout/main_toolbar">
+
+            </include>
+
+            <TextView
+                android:id="@+id/textId"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:visibility="invisible" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="148dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/lblTSala"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textTSala"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="148dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/lblfEntrada"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textFEntrada"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="148dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/lblfSalida"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textFSalida"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="148dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/lblNumAdultos"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textNumAdultos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="148dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/lblNumNiños"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textNumNiños"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="148dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/lblNombre"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textNombreSala"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="148dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/lblEmail"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="148dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/lblDNI"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textDNI"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="148dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/lblTlf"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textTlf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="91dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="148dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/lblComentario"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/textComentario"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/msj"
+                android:layout_width="match_parent"
+                android:layout_height="145dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom"
+                android:layout_gravity="bottom">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:orientation="horizontal"
+                    android:padding="10dp"
+                    android:gravity="bottom">
+
+                    <Button
+                        android:id="@+id/btnEliminarReserva"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/teal_700"
+                        android:text="@string/eliminarReserva"
+                        android:textColor="#000000" />
+
+                    <Space
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/btnEditarReserva"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/teal_700"
+                        android:text="@string/editarReserva"
+                        android:textColor="#000000" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@android:color/white">
+
+        <include
+            layout="@layout/main_nav_drawer">
+
+        </include>
+    </RelativeLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

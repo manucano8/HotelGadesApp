@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Hotel Gades</string>
+    <string name="info">Información de la reserva</string>
+    <string name="nuevaReserva">Añadir nueva reserva</string>
+    <string name="eliminarReserva">Eliminar reserva</string>
+    <string name="editarReserva">Editar reserva</string>
+    <string name="phNombre">Escriba aquí su nombre</string>
+    <string name="phEmail">Escriba aquí su dirección de correo electrónico</string>
+    <string name="phDni">Escriba aquí su DNI</string>
+    <string name="phTlf">Escriba aquí su teléfono</string>
+    <string name="phComentario">Introduzca (si así lo de desea) un comentario o petición relacionada con su reserva</string>
+    <string name="phfEntrada">Seleccione la fecha de entrada</string>
+    <string name="phfSalida">Seleccione la fecha de salida</string>
+    <string name="lblTSala">Tipo de habitación</string>
+    <string name="lblfEntrada">Fecha de entrada</string>
+    <string name="lblfSalida">Fecha de salida</string>
+    <string name="lblNumAdultos">Número de adultos</string>
+    <string name="lblNumNiños">Número de niños</string>
+    <string name="lblNombre">Nombre</string>
+    <string name="lblEmail">Email</string>
+    <string name="lblDNI">DNI</string>
+    <string name="lblTlf">Teléfono</string>
+    <string name="lblComentario">Comentario</string>
+
+
+    <string-array name="tiposHabitacion">
+        <item>Seleccione el tipo de habitación</item>
+        <item>Habitacion simple</item>
+        <item>Habitacion doble</item>
+        <item>Suite simple</item>
+        <item>Suite doble</item>
+    </string-array>
+    <string-array name="numAdultos">
+        <item>Seleccione el número de adultos</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="numNiños">
+        <item>Seleccione el número de niños</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_reservas">Reservas</string>
+    <string name="menu_nuevaReserva">Nueva Reserva</string>
+    <string name="tittleTextView">Salas</string>
+    <string name="sala1">Habitacion individual simple</string>
+    <string name="paragraph1">En ellas encontrará una cama individual y la posibilidad de añadir camas supletorias para los niños.\n\nAdemás, todas ellas son exteriores. Capacidad máxima de 1 adulto y hasta 3 niños.</string>
+    <string name="internet">Conexion a internet</string>
+    <string name="tv">TV por cable</string>
+    <string name="caja">Caja fuerte</string>
+    <string name="minibar">Minibar</string>
+    <string name="aire">Aire acondicionado</string>
+    <string name="tel">Telefono</string>
+    <string name="sala2">Habitacion Doble simple</string>
+    <string name="paragraph2">El Hotel Gades pone a tu disposición las habitaciones doble simples para que vivas una estancia inolvidable. \n\nCapacidad máxima de 3 adultos y 3 niños.</string>
+    <string name="aseo">Artículos de aseo</string>
+    <string name="sala3">Suite individual</string>
+    <string name="paragraph3">Cuenta con estas cómodas habitaciones de 23 m2 en las que descansar después de un día ajetreado. \n\nAdemás, todas ellas son exteriores y algunas cuentan con vistas a la playa. Capacidad máxima de 1 adulto y hasta 3 niños.</string>
+    <string name="sofa">Sofa cama</string>
+    <string name="sala4">Suite Doble</string>
+    <string name="paragraph4">Si deseas vivir una estancia con todo lujo de detalles, la Suite doble es tu opción ideal. \n\nEn sus instalaciones dispones de un jacuzzi y tumbonas. Capacidad máxima de 3 adultos y 3 niños.</string>
+    <string name="jacuzzi">Jacuzzi incorporado</string>
+    <string name="mayordomo">Mayordomo 24h</string>
+    <string name="download">Descargar pdf</string>
+    <string name="view">Ver pdf</string>
+    <string name="ubicacion">¿Dónde nos ubicamos?</string>
+    <string name="ubicacionText">Nuestro hotel está situado en la Avenida Duque de Nájera, en el número 3, en pleno caso histórico de Cádiz y a puro pie de playa. La Playa de la Caleta se encuentra a 1 minuto a pie, y el Parque Genovés a escasos 5 minutos andando. Nuestro hotel se encuentra junto al Barrio de la Viña, uno de los barrios más típicos gaditanos, lleno de vida, y donde podrás degustar los platos más exquisitos de la gastronomía de la ciudad. \n\nTambién podrás dar un paseo junto al mar, tanto por el paseo de Santa Bárbara y la Alameda, como por el Campo del Sur si vas en la otra dirección, y disfutar de las bonitas vistas que ofrece esta ciudad rodeada de agua.</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="transporteTittle">¿Cómo llegar al hotel?</string>
+    <string name="transporte">El hotel es accesible en coche y cuenta con aparcamiento propio para los clientes que deseen venir en coche y reserven también la plaza de aparcamiento correspondiente. \n\nTambién puedes llegar al hotel en las líneas 2 y 7 del autobús urbano.   También puedes venir andando desde la estación de tren (20 minutos) o desde la estación de autobuses (25 minutos).</string>
+    <string name="webTittle">Sitios web de transporte</string>
+    <string name="linkUrbano"><a href="https://tranviadecadizasanfernandoycarraca.es/plaza-espana-cortadura">Líneas urbanas Cádiz</a></string>
+    <string name="linkInterUrbano"><a href="https://siu.cmtbc.es/es/lineas.php">Líneas de transporte interurbanas en la Bahía de Cádiz</a></string>
+    <string name="link3"><a href="https://www.renfe.com/es/es/cercanias/cercanias-cadiz">Cercanías Cádiz</a></string>
+    <string name="title_activity_maps2">MapsActivity2</string>
+    <string name="nombres">Manuel Cano Crespo \n\nÁlvaro Álvarez Cerviño</string>
+    <string name="hotel">Hotel Gades</string>
+    <string name="localizacion">Localización</string>
+    <string name="phSpinnerAdultos">Elija el número de adultos</string>
+    <string name="phSpinnerNinios">Elija el número de niños</string>
+    <string name="phSpinnerSalas">Elija el tipo de habitación</string>
+    <string name="descripInicio">Hotel Gades se encuentra en plena playa de la Caleta de Cádiz, con unas vistas sorprendentes a la propia playa y rodeado de todo el espacio histórico de cadiz. \n\nNuestro hotel es un lugar ideal para relajarse, frenar el estrés. Un hotel familiar con el que venir con los hijos y disfrutar de la playa y la cultura gaditana</string>
+</resources>
